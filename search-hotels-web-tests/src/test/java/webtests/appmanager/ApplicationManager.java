@@ -1,7 +1,5 @@
 package webtests.appmanager;
 
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -67,7 +65,7 @@ public class ApplicationManager {
         return title.split(",")[0];
     }
 
-    public int getNumberOfHotels() {
+    public int getOffers() {
         String number = searchResultPage.hotelsNumber.getText();
         return Integer.valueOf(number.split(" ")[1]);
     }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="webtests.tests.SearchHotelsWebTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-10T20:18:15" hostname="npa-MS-7996" time="7.709">
+  <properties/>
+  <testcase name="testSearchHotels[0](SearchRequest{city='Москва'})" classname="webtests.tests.SearchHotelsWebTests" time="7.709"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

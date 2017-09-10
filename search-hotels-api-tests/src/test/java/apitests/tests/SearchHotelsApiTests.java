@@ -15,9 +15,10 @@ import static org.testng.Assert.assertTrue;
 public class SearchHotelsApiTests extends TestHelper {
 
     @Test(dataProvider = "location", dataProviderClass = DataProviders.class)
-    public void testSearchHotels(String cityName, String country, String childrenNumber, String adultsNumber) {
+    public void testSearchHotels(String cityName, String country, String childrenNumber,
+                                 String adultsNumber, String startDate, String endDate) {
         String cityId = getCityId(cityName, country);
-        String requestId = getRequestId(cityId, adultsNumber, childrenNumber);
+        String requestId = getRequestId(cityId, adultsNumber, childrenNumber, startDate, endDate);
 
         String json = RestAssured.get("https://www.onetwotrip.com/_hotels/api/searchPolling?request_id="
                 + requestId + "&lang=ru&locale=ru&currency=RUB").asString();
@@ -25,7 +26,9 @@ public class SearchHotelsApiTests extends TestHelper {
         JsonElement response = parsed.getAsJsonObject().get("result");
         Result result = new Gson().fromJson(response, Result.class);
 
+        String rr = result.getStatus();
         assertTrue(result.getOffers().size() > 0);
+        assertTrue(result != null);
         assertEquals(result.getStatus(), "done");
 
     }

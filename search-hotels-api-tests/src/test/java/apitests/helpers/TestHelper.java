@@ -25,10 +25,12 @@ public class TestHelper {
         return null;
     }
 
-    protected String getRequestId(String cityId, String adultsNumber, String childrenNumber) {
+    protected String getRequestId(String cityId, String adultsNumber, String childrenNumber,
+                                  String startDate, String endDate) {
         String json =  RestAssured.get("https://www.onetwotrip.com/_hotels/api/searchRequest?" +
-                "object_id=" + cityId + "&object_type=geo&lang=ru&locale=ru&currency=RUB&date_start=2017-09-25&" +
-                "date_end=2017-09-30&pos=1&adults=" + adultsNumber + "&children=" + childrenNumber + "").asString();
+                "object_id=" + cityId + "&object_type=geo&lang=ru&locale=ru&currency=RUB&date_start="
+                + startDate + "&date_end=" + endDate + "&pos=1&adults=" + adultsNumber + "&children="
+                + childrenNumber + "").asString();
         JsonElement parsed = new JsonParser().parse(json);
         String requestId = String.valueOf(parsed.getAsJsonObject().get("result").getAsJsonObject().get("request_id"));
         return requestId.substring(1, requestId.length() - 1);

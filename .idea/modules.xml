@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/OneTwoTrip-test-task.iml" filepath="$PROJECT_DIR$/.idea/OneTwoTrip-test-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-hotels-api-tests/search-hotels-api-tests.iml" filepath="$PROJECT_DIR$/search-hotels-api-tests/search-hotels-api-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-hotels-api-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-hotels-api-tests_main.iml" group="search-hotels-api-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-hotels-api-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-hotels-api-tests_test.iml" group="search-hotels-api-tests" />
+    </modules>
+  </component>
+</project>

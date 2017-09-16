@@ -26,9 +26,8 @@ public class SearchHotelsApiTests extends TestHelper {
         JsonElement response = parsed.getAsJsonObject().get("result");
         Result result = new Gson().fromJson(response, Result.class);
 
-        String rr = result.getStatus();
-        assertTrue(result.getOffers().size() > 0);
         assertTrue(result != null);
+        assertTrue(result.getOffers().size() > 0);
         assertEquals(result.getStatus(), "done");
 
     }

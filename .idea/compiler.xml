@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="log-parser_main" target="1.8" />
+      <module name="log-parser_test" target="1.8" />
       <module name="search-hotels-api-tests_main" target="1.8" />
       <module name="search-hotels-api-tests_test" target="1.8" />
+      <module name="search-hotels-web-tests_main" target="1.8" />
+      <module name="search-hotels-web-tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

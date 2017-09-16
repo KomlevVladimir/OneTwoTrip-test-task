@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e21d3d-b530-4bd8-9975-f69f477fc48f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search-hotels-api-tests/build/classes/java/test/apitests/tests/SearchHotelsApiTests.class" afterPath="$PROJECT_DIR$/search-hotels-api-tests/build/classes/java/test/apitests/tests/SearchHotelsApiTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java" afterPath="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/search-hotels-api-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/search-hotels-api-tests/build/" />
+    <ignored path="$PROJECT_DIR$/search-hotels-web-tests/.gradle/" />
+    <ignored path="$PROJECT_DIR$/search-hotels-web-tests/build/" />
+    <ignored path="$PROJECT_DIR$/log-parser/.gradle/" />
+    <ignored path="$PROJECT_DIR$/log-parser/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +24,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/log-parser">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/search-hotels-api-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/search-hotels-web-tests">
       <ProjectState />
     </projectState>
   </component>
@@ -43,43 +58,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchHotelsApiTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/helpers/TestHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hotels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Hotels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +70,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>offers</find>
+      <find>up_status</find>
+      <find>up_status=</find>
+      <find>up_status=&quot;</find>
+      <find>x_resp_time=</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,16 +88,36 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/search-hotels-api-tests" value="$USER_HOME$/Tools/Gradle/gradle-4.0.1" />
+        <entry key="$PROJECT_DIR$/log-parser" value="$USER_HOME$/Tools/Gradle/gradle-4.0.1" />
+        <entry key="$PROJECT_DIR$/search-hotels-api-tests" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1" />
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$PROJECT_DIR$/log-parser" value="4.0.1" />
         <entry key="$PROJECT_DIR$/search-hotels-api-tests" value="4.0.1" />
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests" value="4.0.1" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="log-parser" />
+              <option name="path" value="$PROJECT_DIR$/log-parser" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="log-parser" />
+                <option name="path" value="$PROJECT_DIR$/log-parser" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -125,10 +134,167 @@
             </list>
           </value>
         </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="search-hotels-web-tests" />
+              <option name="path" value="$PROJECT_DIR$/search-hotels-web-tests" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="search-hotels-web-tests" />
+                <option name="path" value="$PROJECT_DIR$/search-hotels-web-tests" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$PROJECT_DIR$/log-parser">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'log-parser'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'log-parser'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'log-parser'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'log-parser'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/log-parser" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/search-hotels-api-tests">
           <value>
             <list>
@@ -270,16 +436,253 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'search-hotels-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'search-hotels-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'search-hotels-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'search-hotels-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/search-hotels-api-tests" value="3009923913000" />
-        <entry key="$PROJECT_DIR$/search-hotels-api-tests/build.gradle" value="3786095207" />
+        <entry key="$PROJECT_DIR$/log-parser" value="3010662303000" />
+        <entry key="$PROJECT_DIR$/search-hotels-api-tests" value="3010034151000" />
+        <entry key="$PROJECT_DIR$/search-hotels-api-tests/build.gradle" value="2686857301" />
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests" value="3010111299000" />
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests/build.gradle" value="3330407397" />
       </map>
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$PROJECT_DIR$/log-parser">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/log-parser">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/log-parser" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="log-parser" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-model-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-tooling-api-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-process-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-model-core-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-jvm-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-logging-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-messaging-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-docs-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-base-services-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/groovy-all-2.4.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-cli-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-wrapper-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-launcher-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-runtime-api-info-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-core-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-installation-beacon-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-base-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-resources-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-workers-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-antlr-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-cache-http-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ivy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ear-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugin-development-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-sftp-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-base-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-osgi-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-play-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-code-quality-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-comparison-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-init-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugin-use-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-base-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugins-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-signing-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-dependency-management-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-reporting-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-composite-builds-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-java-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-maven-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-diagnostics-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-scala-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-test-kit-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-tooling-api-builders-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-play-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-javascript-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-http-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-scala-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-announce-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-publish-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-s3-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-jacoco-4.0.1.jar" />
+                  <option value="$PROJECT_DIR$/log-parser/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/log-parser/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/search-hotels-api-tests">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -373,6 +776,99 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/search-hotels-web-tests">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/search-hotels-web-tests">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/search-hotels-web-tests" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="search-hotels-web-tests" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-model-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-tooling-api-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-process-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-model-core-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-jvm-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-logging-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-messaging-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-docs-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-base-services-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/groovy-all-2.4.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-cli-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-wrapper-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-launcher-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-runtime-api-info-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-core-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-installation-beacon-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-base-services-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/gradle-resources-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-workers-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-antlr-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-cache-http-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ivy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ear-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugin-development-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-sftp-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-base-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-osgi-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-play-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-code-quality-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-comparison-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-groovy-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-build-init-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugin-use-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-base-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-plugins-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-signing-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-dependency-management-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-reporting-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-composite-builds-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-java-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-maven-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-diagnostics-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-testing-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-jvm-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-scala-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-test-kit-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-tooling-api-builders-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-platform-play-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-ide-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-javascript-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-http-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-scala-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-announce-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-publish-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-language-native-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-resources-s3-4.0.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0.1-bin/82ajq2mkcvzmyzskx3tahg8op/gradle-4.0.1/lib/plugins/gradle-jacoco-4.0.1.jar" />
+                  <option value="$PROJECT_DIR$/search-hotels-web-tests/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/search-hotels-web-tests/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -382,7 +878,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/search-hotels-api-tests/build.gradle" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/tests/SearchHotelsApiTests.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apiTests/SearchHotelsApiTests.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apiTests/model/city.java" />
@@ -392,12 +887,36 @@
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apiTests/tests/DataProvider.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apiTests/tests/DataProviders.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apiTests/tests/SearchHotelsApiTests.java" />
-        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/data/DataProviders.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Response.java" />
-        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java" />
         <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Hotels.java" />
-        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/helpers/TestHelper.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/SearchHotelsTests.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/SearchHotelsWebTests.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/TestBase.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/data/DataProviders.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/aTests.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/sTests.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/model/SearchRequest.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/SearchHotelsPage.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/data/DataProviders.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/SearchResultPage.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/search-hotels-api-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/SearchHotelsWebTests.java" />
+        <option value="$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/log-parser/src/log.txt" />
+        <option value="$PROJECT_DIR$/log-parser/src/LogParser.java" />
+        <option value="$PROJECT_DIR$/log-parser/build.gradle" />
+        <option value="$PROJECT_DIR$/log-parser/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/log-parser/src/main/resources/log.txt" />
+        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/helpers/TestHelper.java" />
+        <option value="$PROJECT_DIR$/log-parser/src/main/java/LogParser.java" />
+        <option value="$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java" />
       </list>
     </option>
   </component>
@@ -405,8 +924,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1014" />
+    <option name="x" value="1680" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -426,7 +946,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -449,21 +969,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="search-hotels-web-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneTwoTrip-test-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneTwoTrip-test-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="search-hotels-api-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneTwoTrip-test-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneTwoTrip-test-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log-parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/search-hotels-api-tests/build.gradle" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log-parser/build.gradle" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -477,41 +1026,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchHotelsApiTests.testSearchHotels (2)">
+  <component name="RunManager" selected="TestNG.SearchHotelsApiTests.testSearchHotels (1)">
     <configuration default="false" name="SearchHotelsApiTests.testSearchHotels" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="apitests.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="search-hotels-api-tests_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="apiTests.tests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.tests.SearchHotelsApiTests" />
-      <option name="METHOD_NAME" value="testSearchHotels" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/search-hotels-api-tests" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="SearchHotelsApiTests.testSearchHotels (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="apitests.tests.*" />
@@ -544,7 +1060,52 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="SearchHotelsApiTests.testSearchHotels (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LogParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LogParser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log-parser" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LogParser (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LogParser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log-parser_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log-parser_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SearchHotelsApiTests.testSearchHotels (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="apitests.tests.*" />
@@ -781,16 +1342,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LogParser" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LogParser (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.main" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (2)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LogParser (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LogParser" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SearchHotelsApiTests.testSearchHotels" />
       </list>
     </recent_temporary>
   </component>
@@ -808,70 +1373,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.10 at 11h 50m 37s.xml">
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 38m 40s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 38m 51s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 39m 16s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 40m 40s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 43m 37s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels - 2017.09.10 at 23h 43m 50s.xml">
+      <configuration name="SearchHotelsApiTests.testSearchHotels" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.17 at 01h 35m 00s.xml">
       <configuration name="SearchHotelsApiTests.testSearchHotels (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.10 at 11h 52m 01s.xml">
+    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.17 at 01h 41m 27s.xml">
       <configuration name="SearchHotelsApiTests.testSearchHotels (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.10 at 11h 52m 18s.xml">
+    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.17 at 01h 42m 59s.xml">
       <configuration name="SearchHotelsApiTests.testSearchHotels (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(1) - 2017.09.10 at 11h 55m 32s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 03m 02s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 03m 31s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 14m 40s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 15m 28s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 21m 02s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchHotelsApiTests_testSearchHotels_(2) - 2017.09.10 at 12h 21m 11s.xml">
-      <configuration name="SearchHotelsApiTests.testSearchHotels (2)" configurationId="TestNG" />
+    <history-entry file="SearchHotelsWebTests_testSearchHotels - 2017.09.10 at 23h 18m 00s.xml">
+      <configuration name="SearchHotelsWebTests.testSearchHotels" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1014" extended-state="6" />
-    <editor active="true" />
+    <frame x="1680" y="0" width="1280" height="1024" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23222223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1891065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29335493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986537" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34157303" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -879,7 +1443,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="191" />
+      <option name="time" value="263" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -888,33 +1452,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,21 +1473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.3/9aedb4e85d144881be189f8fb9a27f151eaec13c/rest-assured-3.0.3-sources.jar!/io/restassured/RestAssured.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="777" column="0" lean-forward="false" selection-start-line="777" selection-start-column="0" selection-end-line="777" selection-end-column="0" />
-          <folding>
-            <element signature="e#31254#31255#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,78 +1529,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/data/DataProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Response.java" />
     <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/Hotels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/helpers/TestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,15 +1548,247 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/annotations/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="691" column="0" lean-forward="false" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/aTests.java" />
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/sTests.java" />
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/model/SearchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/data/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/SearchHotelsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/SearchResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="99" lean-forward="false" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/data/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/tests/SearchHotelsWebTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/src/test/java/webtests/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/model/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-parser/src/log.txt" />
+    <entry file="file://$PROJECT_DIR$/log-parser/src/LogParser.java" />
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/nio/file/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="775" column="5" lean-forward="true" selection-start-line="775" selection-start-column="5" selection-end-line="775" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/text/DateFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/text/SimpleDateFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="399" column="48" lean-forward="false" selection-start-line="399" selection-start-column="47" selection-end-line="399" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Date.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/time/LocalDateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="87" column="32" lean-forward="false" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-web-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-parser/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-parser/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-parser/src/main/resources/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="433" lean-forward="true" selection-start-line="5" selection-start-column="433" selection-end-line="5" selection-end-column="433" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/helpers/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search-hotels-api-tests/src/test/java/apitests/tests/SearchHotelsApiTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="300">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-parser/src/main/java/LogParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3509#3510#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,7 +1844,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>OneTwoTrip-test-task</last-edited>
+          <last-edited>log-parser</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1157,6 +1856,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.64</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
